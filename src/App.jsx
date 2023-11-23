@@ -16,7 +16,7 @@ function handelInputChange(inputIdentifier, newValue) {
     setUserInput((prevUserInput) => {
         return {
             ...prevUserInput,
-            [inputIdentifier]: newValue
+            [inputIdentifier]: +newValue
         }
     })
 }
